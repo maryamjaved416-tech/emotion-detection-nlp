@@ -11,4 +11,4 @@ return {'anger': None, 'disgust': None, 'fear': None, 'joy': None, 'sadness': No
 emotions = formatted_response['emotionPredictions'][0]['emotion']
 dominant_emotion = max(emotions, key=emotions.get)
 emotions['dominant_emotion'] = dominant_emotion
- return emotions
+return emotions
